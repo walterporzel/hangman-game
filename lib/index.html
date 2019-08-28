@@ -10,12 +10,18 @@
 <body>
     <div class="wrapper">
         <header>
+            <div class=noose>
+                <img class="noosePic" src="../img/Noose.png">
+            </div>
             <h1>Hangman</h1>
+            <div class="noose">
+                <img class = "noosePic" src="../img/Noose.png">
+            </div>
         </header>
         <main>
             <aside>
                 <img class="gallows-start" src="../img/start.png">
-                <img class="gallows-one" src="../img/oneMiss1.png">
+                <img class="gallows-one" src="../img/oneMiss.png">
                 <img class="gallows-two" src="../img/twoMiss.png">
                 <img class="gallows-three" src="../img/threeMiss.png">
                 <img class="gallows-four" src="../img/fourMiss.png">
@@ -32,39 +38,43 @@
                     <button class="reset">Reset Game</button>
                 </div>
                 <div class="word-guess"></div>
-                <div class="keyboard">
-                    <div class="row">
-                        <div class="letter" data-letter="q">q</div>
-                        <div class="letter" data-letter="w">w</div>
-                        <div class="letter" data-letter="e">e</div>
-                        <div class="letter" data-letter="r">r</div>
-                        <div class="letter" data-letter="t">t</div>
-                        <div class="letter" data-letter="y">y</div>
-                        <div class="letter" data-letter="u">u</div>
-                        <div class="letter" data-letter="i">i</div>
-                        <div class="letter" data-letter="o">o</div>
-                        <div class="letter" data-letter="p">p</div>
+                <div class="keyboardWrapper">
+                    <div class="keyboard">
+                        <div class="row">
+                            <div class="letter" data-letter="q">q</div>
+                            <div class="letter" data-letter="w">w</div>
+                            <div class="letter" data-letter="e">e</div>
+                            <div class="letter" data-letter="r">r</div>
+                            <div class="letter" data-letter="t">t</div>
+                            <div class="letter" data-letter="y">y</div>
+                            <div class="letter" data-letter="u">u</div>
+                            <div class="letter" data-letter="i">i</div>
+                            <div class="letter" data-letter="o">o</div>
+                            <div class="letter" data-letter="p">p</div>
+                        </div>
+                        <div class="row">
+                            <div class="letter" data-letter="a">a</div>
+                            <div class="letter" data-letter="s">s</div>
+                            <div class="letter" data-letter="d">d</div>
+                            <div class="letter" data-letter="f">f</div>
+                            <div class="letter" data-letter="g">g</div>
+                            <div class="letter" data-letter="h">h</div>
+                            <div class="letter" data-letter="j">j</div>
+                            <div class="letter" data-letter="k">k</div>
+                            <div class="letter" data-letter="l">l</div>
+                        </div>
+                        <div class="row">
+                            <div class="letter" data-letter="z">z</div>
+                            <div class="letter" data-letter="x">x</div>
+                            <div class="letter" data-letter="c">c</div>
+                            <div class="letter" data-letter="v">v</div>
+                            <div class="letter" data-letter="b">b</div>
+                            <div class="letter" data-letter="n">n</div>
+                            <div class="letter" data-letter="m">m</div>
+                        </div>
                     </div>
-                    <div class="row">
-                        <div class="letter" data-letter="a">a</div>
-                        <div class="letter" data-letter="s">s</div>
-                        <div class="letter" data-letter="d">d</div>
-                        <div class="letter" data-letter="f">f</div>
-                        <div class="letter" data-letter="g">g</div>
-                        <div class="letter" data-letter="h">h</div>
-                        <div class="letter" data-letter="j">j</div>
-                        <div class="letter" data-letter="k">k</div>
-                        <div class="letter" data-letter="l">l</div>
-                    </div>
-                    <div class="row">
-                        <div class="letter" data-letter="z">z</div>
-                        <div class="letter" data-letter="x">x</div>
-                        <div class="letter" data-letter="c">c</div>
-                        <div class="letter" data-letter="v">v</div>
-                        <div class="letter" data-letter="b">b</div>
-                        <div class="letter" data-letter="n">n</div>
-                        <div class="letter" data-letter="m">m</div>
-                    </div>
+                    <p class="winMessage">You Won!</p>
+                    <p class="loseMessage">You Lost!</p>
                 </div>
             </div>
         </main>
