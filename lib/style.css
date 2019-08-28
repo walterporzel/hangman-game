@@ -82,15 +82,8 @@ p{
     justify-content: center;
     align-items: center;
 }
-.keyboardWrapper{
-    height: 157px;
-    width: 470.19px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 .keyboard{
-    height: 60%;
+    height: 100%;
     width: 100%;
     margin: 20px 0;
     display: none;
