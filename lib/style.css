@@ -1,26 +1,33 @@
 html, body{
-    height: 100%;
+    height: 400px;
     margin: 0;
+    display: flex;
+    justify-content: center;
 }
 main{
     display: flex;
+    justify-content: center;
     height: 100%;
     width: 100%;
 }
 aside{
     height: 100%;
-    width: 300px;
+    width: 305px;
+    display: flex;
+    justify-content: center;
 }
 
 /* Specific Styles */
 .wrapper{
     height: 100%;
+    width: 700px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 .game{
-    height: 100%;
+    height: auto;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -28,15 +35,21 @@ aside{
 .word-input{
     height: 20%;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .word-guess{
     height: 20%;
     width: 100%;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .keyboard{
     height: 60%;
     width: 100%;
+    padding: 20px;
 }
 .letters{
     border: 1px solid black;
@@ -60,4 +73,39 @@ aside{
     display: flex;
     justify-content: center;
     margin: 5px;
+}
+/* Different stages of hangman */
+.gallows-start{
+    max-width: 100%;
+    max-height: 100%;
+}
+.gallows-one{
+    display: none;
+    max-width: 100%;
+    max-height: 100%;
+}
+.gallows-two{
+    display: none;
+    max-width: 100%;
+    max-height: 100%;
+}
+.gallows-three{
+    display: none;
+    max-width: 100%;
+    max-height: 100%;
+}
+.gallows-four{
+    display: none;
+    max-width: 100%;
+    max-height: 100%;
+}
+.gallows-five{
+    display: none;
+    max-width: 100%;
+    max-height: 100%;
+}
+.gallows-six{
+    display: none;
+    max-width: 100%;
+    max-height: 100%;
 }
