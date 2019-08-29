@@ -120,7 +120,7 @@ button:hover{
     display: none;
 }
 .letters{
-    margin: 10px;
+    margin: 5px;
     height: 25px;
     width: 25px;
     display: flex;
@@ -209,5 +209,8 @@ button:hover{
     }
     button{
         margin-bottom: 20px;
+    }
+    form{
+        margin-top: 20px;
     }
   }
