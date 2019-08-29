@@ -4,7 +4,8 @@ html, body{
     width: 100%;
     display: flex;
     justify-content: center;
-    background-color: green
+    background-color: green;
+    font-family: 'Chilanka', cursive;
 }
 
 main{
@@ -18,37 +19,58 @@ aside{
     width: 230px;
     display: flex;
     justify-content: center;
+    animation: fadeInOpacity;
+    animation-duration: 5s;
 }
 h1{
     color: darkgrey;
-    width: 150px;
+    font-size: 45px;
+    margin: 10px 20px;
     text-align: center;
     text-shadow: 1px 1px 2px black;
     animation: dropIn;
-    animation-duration: 5s; 
+    animation-duration: 4s; 
 }
 header{
     width: 100%;
     height: 80px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
 }
 p{
     text-align: center;
 }
+button{
+    font-family: 'Chilanka', cursive;
+    padding: 3px;
+
+}
+button:hover{
+    border: 1px solid blue;
+}
+
+
 
 /* animations */
 @keyframes dropIn {
     0% {transform: translate(0, -100px)}
-    80%{transform: translate(0, -100px)}
+    75%{transform: translate(0, -100px)}
     90% {transform: translate(0,0)}
     95%{transform: translate(0, -5px)}
     100%{transform: translate(0,0)}
 }
 @keyframes drop{
-    0% {transform: translate(0, -100px)}
+    0% {transform: translate(0, -80px)}
     100% {transform: translate(0, 0)}
 }
+@keyframes fadeInOpacity {
+    0% {opacity: 0;}
+    80% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
 
 
 
@@ -67,6 +89,8 @@ p{
     width: 475px;
     display: flex;
     flex-direction: column;
+    animation: fadeInOpacity;
+    animation-duration: 5s;
 }
 .word-input{
     height: 20%;
@@ -127,7 +151,7 @@ p{
 .noose{
     height: 80px;
     animation: drop;
-    animation-duration: 4s; 
+    animation-duration: 3s; 
 }
 .noosePic{
     max-width: 100%;
