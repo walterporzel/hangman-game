@@ -200,12 +200,16 @@ button:hover{
     }
     body {
         height: 640px;
+        width: 100%;
     }
     aside{
         height: 290px;
         display: flex;
         justify-content: center;
         
+    }
+    .game{
+        width: 100%;
     }
     button{
         margin-bottom: 20px;
