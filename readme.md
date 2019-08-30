@@ -19,3 +19,4 @@ After a word is sibmited, the entry screen is hidden and a series of blank space
 
 This webpage is structured in HTMl and styled in CSS. Interaction with the webage is acheived through Javascript DOM manipulation.
 
+## Approach Take
