@@ -1,4 +1,6 @@
 # Hangman
+[Settings](https://github.com/walterporzel/hangman-game/settings)
+
 ## Description
 
 Hangman is a game played between two players, one person who chooses a word and another who takes turns guessing letters. If the guesser chooses 6 letters that are not in the word before completing the word, they lose the game. If they correctly guess all letters in the word, they win the game.
