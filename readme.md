@@ -18,6 +18,12 @@ After a word is submitted, the entry screen is hidden and a series of blank spac
 
 ## Technologies Used
 
+This webpage is structured in HTMl and styled in CSS. Interaction with the webage is acheived through Javascript DOM manipulation.
+
+The webpage is responsively designed to display aesthetically on both mobile phones and larger desktops.
+
+## Technical Description
+
 When the game is launched there are a series of short animations that make use of the keyframes features of CSS, modifying the transform and opacity styles of 3 elements. Once the opening page is fully displayed, the user is prompted to choose to either enter a word or have a word randomly generated.
 
 When the chosen input button is clicked the input box is hidden and replaced with a reset button via DOM manipulation. A virtual keyboard is also displayed on the screen, with event listeners attached to each individual key. Event listeners are additionally tied to each letter key on the keyboard to chose between using the physical keyboard or the virtual keyboard. When the end-user guesses a letter via either input method two separate functions are run, one to check the input letter against the word and another to check the overall game status. 
